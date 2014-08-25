@@ -8,7 +8,7 @@
     {
         protected abstract T Map(IDataReader dataReader);
 
-        protected abstract IList<T> MapAll(IDataReader dataReader)
+        protected IList<T> MapAll(IDataReader dataReader)
         {
             var result = new List<T>();
 
